@@ -1,14 +1,4 @@
-@keyframes tick
-	/* from
-		transform scale(0)
-	to
-		transform scale(1) */
-	0%
-		transform scale(0)
-	90%
-		transform scale(1.5)
-	100%
-		transform scale(1)
+
 		
 
 body
@@ -25,7 +15,7 @@ label
 		display none
 
 		+ .label-text:before
-			content "\f096"
+			content "\f204"
 			font-family: "FontAwesome"
 			speak none
 			font-style: normal
@@ -38,7 +28,7 @@ label
 			margin-right: 5px
 		
 		&:checked + .label-text:before
-			content "\f14a"
+			content "\f205"
 			/* ahother way to add content: content url(holi.png.com) */
 			color #06a3e9
 			animation tick 180ms ease-in
@@ -47,7 +37,7 @@ label
 			color #999
 
 			&:before
-				content "\f0c8"
+				content "\f204"
 				color #ccc
 		
 		
